@@ -1,7 +1,7 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
   "theme": "maple",
   "name": "Documentation - ScamShield | Discord Scam Protection",
+  "description": "ScamShield automatically detects and removes casino spam, support scams, and other fraudulent messages - then links the detection across all the mutual servers.",
   "colors": {
     "primary": "#3e7b9e",
     "light": "#32c6cc",
@@ -15,11 +15,38 @@
     "light": "/images/scamshield.ico",
     "dark": "/images/scamshield.ico"
   },
+  "navbar": {
+    "links": [
+      {
+        "href": "https://discord.gg/CxTCRJz4hR",
+        "label": "Support Server"
+      },
+      {
+        "href": "https://discord.com/oauth2/authorize?client_id=1513290469390422188",
+        "label": "Bot Invite"
+      }
+    ]
+  },
+  "seo": {
+    "indexing": "navigable"
+  },
+  "errors": {
+    "404": {
+      "redirect": false,
+      "title": "404: PAGE NOT FOUND",
+      "description": "The page you are looking for isn't here! Try somewhere else..."
+    }
+  },
   "navigation": {
     "groups": [
       {
         "group": "Introduction",
-        "pages": ["index", "getting-started/index", "getting-started/installation", "getting-started/configuration"]
+        "pages": [
+          "index",
+          "getting-started/index",
+          "getting-started/installation",
+          "getting-started/configuration"
+        ]
       },
       {
         "group": "Detection Features",
@@ -45,10 +72,11 @@
         "group": "Commands",
         "pages": [
           "commands/index",
-          "commands/slash-commands""]
+          "commands/slash-commands"
+        ]
       },
       {
-        "group": "Advanced",
+        "group": "Extra InfoExtra Info",
         "pages": [
           "advanced/linked-servers",
           "advanced/punishment-actions"
@@ -56,31 +84,10 @@
       },
       {
         "group": "FAQ",
-        "pages": ["faq"]
+        "pages": [
+          "faq"
+        ]
       }
     ]
-  },
-  "errors": {
-    "404": {
-      "redirect": false,
-      "title": "404: PAGE NOT FOUND",
-      "description": "The page you are looking for isn't here! Try somewhere else..."
-    }
-  },
-  "seo": {
-    "indexing": "navigable"
-  },
-  "navbar": {
-    "links": [
-      {
-        "href": "https://discord.gg/CxTCRJz4hR",
-        "label": "Support Server"
-      },
-      {
-        "href": "https://discord.com/oauth2/authorize?client_id=1513290469390422188",
-        "label": "Bot Invite"
-      }
-    ]
-  },
-  "description": "ScamShield automatically detects and removes casino spam, support scams, and other fraudulent messages - then links the detection across all the mutual servers."
+  }
 }
