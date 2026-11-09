@@ -76,7 +76,7 @@
         ]
       },
       {
-        "group": "Extra InfoExtra Info",
+        "group": "Extra Info",
         "pages": [
           "advanced/linked-servers",
           "advanced/punishment-actions"
