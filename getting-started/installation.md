@@ -33,8 +33,7 @@ The bot needs the following permissions to function:
 Once invited, check that the bot is working:
 
 1. The bot should appear as online in your member list
-2. Type `s.ping` in any channel — the bot should reply with `Pong!` and its latency
-3. If using slash commands, try `/ping`
+2. Use the `/ping` command in any channel — the bot should reply with `Pong!` and its latency
 
 ## Permissions Issues
 
@@ -44,11 +43,6 @@ If the bot doesn't respond, check:
 - The bot has **Send Messages** permission
 - Your server has enabled **Use Slash Commands** permission for members
 
-## Prefix Commands
+## Command Prefix
 
-The bot's prefix is `s.`. For example:
-
-- `s.help` — Show command list
-- `s.ping` — Check bot latency
-
-Slash commands (like `/help`, `/warns`, `/check`) are also available.
+Due to Discord depreciating prefix commands, ScamShield is designed to use only application (slash) commands. Examples of these include `/help`, `/ping`, and `/check`.

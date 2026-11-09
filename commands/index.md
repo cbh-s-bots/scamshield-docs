@@ -10,21 +10,20 @@ ScamShield provides both **slash commands** (recommended) and **prefix commands*
 
 ## Command Types
 
+<Note>
+  Due to prefix command depreciation, ScamShield has switched to using slash commands.
+</Note>
+
 | Type | Prefix | Example | Availability |
 | --- | --- | --- | --- |
 | Slash | `/` | `/help` | Everywhere |
-| Prefix | `s.` | `s.help` | Server channels |
-
-## Prefix
-
-The bot's prefix is `s.`. For example, `s.ping` checks bot latency.
 
 ## Quick Reference
 
 | Command | Description |
 | --- | --- |
-| `/help` or `s.help` | Show help with all available commands |
-| `/ping` or `s.ping` | Check bot latency |
+| `/help` | Show help with all available commands |
+| `/ping` | Check bot latency |
 | `/check` | Analyse a message or image for scams |
 | `/warns` | View warning history for a user |
 | `/history` | View detection history for a user |

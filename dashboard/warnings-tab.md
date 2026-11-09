@@ -1,7 +1,7 @@
 ---
 title: "Warnings Tab"
 description: "View and manage user warnings."
-icon: "warning"
+icon: "alert-triangle"
 ---
 
 # Warnings Tab
@@ -22,7 +22,7 @@ Each entry shows:
 
 ### Deleting a Warning
 
-Click the **Delete** button next to any warning entry to remove it from the log. This does not undo any actions taken — it only removes the database record.
+Click the **Delete** button next to any warning entry to remove it from the log. This does not undo any actions taken - it only removes the record.
 
 ### Clearing Warnings
 

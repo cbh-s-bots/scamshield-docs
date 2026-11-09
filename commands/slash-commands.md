@@ -1,7 +1,7 @@
 ---
 title: "Slash Commands"
 description: "Complete reference of all ScamShield slash commands."
-icon: "slash-forward"
+icon: "slash"
 ---
 
 # Slash Commands
@@ -30,8 +30,8 @@ Manually analyse a message or image for scam patterns.
 
 **Parameters:**
 
-- `text` (optional) — The message text to analyse
-- `image` (optional) — An image to scan (OCR text extraction)
+- `text` (optional) - The message text to analyse
+- `image` (optional) - An image to scan (OCR text detection)
 
 **Response:** Ephemeral embed with risk level, probability, and matched patterns.
 
@@ -45,7 +45,7 @@ View the warning history for a user.
 
 **Parameters:**
 
-- `user` (required) — The user to look up
+- `user` (required) - The user to look up
 
 **Response:** Ephemeral embed showing total warnings and up to 10 most recent entries with timestamps, reasons, and moderators.
 
@@ -57,7 +57,7 @@ View the scam detection history for a user.
 
 **Parameters:**
 
-- `user` (required) — The user to look up
+- `user` (required) - The user to look up
 
 **Response:** Ephemeral embed showing total detections and up to 10 most recent entries with type, score, confidence, and action taken.
 

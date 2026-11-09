@@ -24,6 +24,6 @@ Each entry shows:
 
 ### Deleting a Detection
 
-Click the **Delete** button next to any detection entry to remove it from the log. This does not undo any actions taken — it only removes the database record.
+Click the **Delete** button next to any detection entry to remove it from the log. This does not undo any actions taken - it only removes the record.
 
 The detection log is paginated and sorted newest-first.

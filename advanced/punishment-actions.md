@@ -17,28 +17,28 @@ Each detection type (casino, support/intro/quick) has an independent action chai
 | Action | Description | Parameters |
 |---|---|---|
 | Delete | Removes the flagged message | None |
-| Warn | Records a warning in the database | None |
+| Warn | Records a warning | None |
 | Timeout | Mutes the user temporarily | Duration in minutes |
 | Kick | Removes the user from the server | None |
 | Ban | Permanently bans the user | Delete days (message history to remove) |
 
 ### Best Practices
 
-- **Delete should be first** — Removes the scam message before other actions execute
-- **Warn before kick/ban** — Builds a record of the user's infractions
-- **Timeout for first offenses** — Less aggressive than immediate kicks or bans
+- **Delete should be first** - Removes the scam message before other actions execute
+- **Warn before kick/ban** - Builds a record of the user's infractions
+- **Timeout for first offenses** - Less aggressive than immediate kicks or bans
 
 ## Interactive Moderation
 
 Every alert embed includes a **PunishmentView** with a dropdown menu for interactive moderation. Moderators with the `Moderate Members` permission can:
 
-- **Ban** — Permanently ban the user (with configurable delete days)
-- **Kick** — Remove the user from the server
-- **Timeout** — Mute the user for a duration
-- **Unmute** — Remove an active timeout
-- **Unban** — Reverse a ban
-- **Warn** — Issue a manual warning
-- **Unwarn** — Remove a specific warning (opens a sub-menu to select which warning)
+- **Ban** - Permanently ban the user (with configurable delete days)
+- **Kick** - Remove the user from the server
+- **Timeout** - Mute the user for a duration
+- **Unmute** - Remove an active timeout
+- **Unban** - Reverse a ban
+- **Warn** - Issue a manual warning
+- **Unwarn** - Remove a specific warning (opens a sub-menu to select which warning)
 
 ### How It Works
 

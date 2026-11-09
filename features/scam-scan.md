@@ -26,13 +26,13 @@ Analyzes the provided text against all 15\+ scam pattern groups and returns:
 
 ### Image Analysis
 
-If an image is attached, the bot attempts OCR (Optical Character Recognition via Tesseract) to extract text from the image, then analyzes that text against the same patterns.
+If an image is attached, the bot attempts OCR (Optical Character Recognition) to extract text from the image, then analyzes that text against the same patterns.
 
 ## Response
 
 The command returns an ephemeral embed (only visible to the user who ran the command) with:
 
-- Risk level indicator with color coding
+- Risk level indicator
 - Scam probability bar
 - List of matched patterns with emoji and description
 - Source label (text, image, or image \+ OCR)

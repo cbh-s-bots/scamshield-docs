@@ -14,9 +14,9 @@ ScamShield uses five independent detection engines. Each runs on every message a
 | --- | :-- |
 | Casino | Celebrity casino promos |
 | Support | Masked/hidden URLs |
-| IntroScan | Fake business pitch intros |
-| QuickScam | Get-rich-quick schemes |
-| ScamScan | Manual `/check` scans |
+| Introduction | Fake business pitch intros |
+| Money | Get-rich-quick schemes |
+| Manual | Manual `/check` scans |
 
 ## Common Patterns - /check
 

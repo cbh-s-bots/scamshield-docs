@@ -1,7 +1,7 @@
 ---
 title: "Casino Tab"
 description: "Configure casino scam detection settings."
-icon: "money-bill-1-wave"
+icon: "gamepad-2"
 ---
 
 # Casino Tab
@@ -30,10 +30,10 @@ Set the score threshold (1–20). Default is 5. Lower values increase sensitivit
 
 Configure what happens when a casino scam is detected. Actions run in order:
 
-1. **Delete** — Removes the scam message
-2. **Warn** — Records a warning in the database
-3. **Timeout** — Mutes the user (set duration in minutes)
-4. **Kick** — Removes the user from the server
-5. **Ban** — Permanently bans the user
+1. **Delete** - Removes the scam message
+2. **Warn** - Records a warning in the database
+3. **Timeout** - Mutes the user (set duration in minutes)
+4. **Kick** - Removes the user from the server
+5. **Ban** - Permanently bans the user
 
 You can add, remove, and reorder actions. Each action type has its own configuration parameters (like timeout duration in minutes).

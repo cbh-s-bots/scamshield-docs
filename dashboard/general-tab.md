@@ -6,7 +6,13 @@ icon: "link"
 
 # General Tab
 
-The General tab controls cross-server propagation settings, which allow scam detection actions to propagate across multiple servers.
+The General tab controls whitelist and cross-server propagation settings.
+
+## Whitelist Users or Roles
+
+Whitelisting users allows you to prevent certain users or roles from being detected whenever a scam engine is triggered. This is dangerous to give users, since it essentially makes them immune to ScamShield. 
+
+You can choose to whitelist roles and / or users. Roles are automatically listed, so you only need to select the roles you want to whitelist, then click save roles. <br />Users need to be manually entered via the user ID, which can be found by enabling Discord 'Developer Mode' in the Settings → Developer → Developer Mode. You can then right click on a user, or open their profile and click the three dots, then select 'copy user ID'. All thats left is to paste it into the box, and click add user.
 
 ## Linked Server Propagation
 
@@ -37,6 +43,6 @@ Unlike Casino and Support action chains, linked actions do **not** include the "
 
 ### Use Cases
 
-- **Multi-server communities** — If a scammer is banned from one server, automatically ban them from all linked servers
-- **Shared moderation** — Detect and act on serial scammers across your server network
-- **Early warning** — If a scammer joins one of your servers after being flagged elsewhere, past actions propagate
+- **Multi-server communities** - If a scammer is banned from one server, automatically ban them from all linked servers
+- **Shared moderation** - Detect and act on serial scammers across your server network
+- **Early warning** - If a scammer joins one of your servers after being flagged elsewhere, past actions propagate

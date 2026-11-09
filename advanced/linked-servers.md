@@ -31,10 +31,10 @@ Linked actions cannot include "delete" since the original message is in a differ
 
 ## Use Cases
 
-- **Multi-server moderation** — Keep serial scammers out of all your communities
-- **Early warning network** — If a scammer is caught in one server, other servers in your network are automatically protected
-- **Shared ban lists** — Effectively create a shared ban list across servers
+- **Multi-server moderation** - Keep serial scammers out of all your communities
+- **Early warning network** - If a scammer is caught in one server, other servers in your network are automatically protected
+- **Shared ban lists** - Effectively create a shared ban list across servers
 
 ## Detection Types
 
-Linked propagation preserves the detection type (`casino`, `support`, `intro`, `quick_scam`), so the linked server's alert embed accurately reflects what type of scam was detected.
+Linked propagation preserves the detection type (`casino`, `support`, `introduction`, `money`), so the linked server's alert embed accurately reflects what type of scam was detected.

@@ -1,7 +1,7 @@
 ---
 title: "FAQ"
 description: "Frequently asked questions about ScamShield."
-icon: "question-circle"
+icon: "circle-help"
 ---
 
 # Frequently Asked Questions
@@ -14,11 +14,11 @@ ScamShield detects five categories: celebrity casino scams, support/masked URL s
 
 ### Does the bot read all my messages?
 
-Yes, the bot reads message content in channels it has access to. It only processes messages for scam detection and does not store or share message content outside of detection logs.
+Yes, the bot reads message content in channels it has access to. It only processes messages for scam detection and does not store or share message content at all.
 
 ### Can I use both slash commands and prefix commands?
 
-Yes. Slash commands (`/help`, `/ping`, etc.) and prefix commands (`s.help`, `s.ping`) are both available.
+No. Due to Discord depreciating prefix commands, ScamShield only uses slash commands. These can be found in the [Slash Commands](/commands/slash-commands) page.
 
 ## Detection
 
@@ -26,11 +26,11 @@ Yes. Slash commands (`/help`, `/ping`, etc.) and prefix commands (`s.help`, `s.p
 
 Each engine has different triggers:
 
-- **Casino** — Messages with image attachments containing casino promo visuals \+ text
-- **Support** — Any message with masked/obfuscated URLs
-- **IntroScan** — Text messages matching fake introduction patterns
-- **QuickScam** — Text messages matching get-rich-quick patterns
-- **ScamScan** — Manual invocation via `/check`
+- **Casino** - Messages with image attachments containing casino promo visuals \+ text
+- **Support** - Any message with masked/obfuscated URLs
+- **IntroScan** - Text messages matching fake introduction patterns
+- **QuickScam** - Text messages matching get-rich-quick patterns
+- **ScamScan** - Manual invocation via `/check`
 
 ### Why was a message flagged?
 
@@ -77,7 +77,7 @@ Ensure you have **Administrator** permission in the server and the bot is a memb
 Check:
 
 - The bot is online in Discord
-- `s.ping` returns a response
+- `/ping` returns a response
 - The bot has proper channel permissions
 
 ### False positives

@@ -6,13 +6,13 @@ icon: "shield"
 
 # Welcome to ScamShield
 
-ScamShield (UniversalAntiScam) is a Discord bot that automatically detects and acts on scam messages across five detection engines:
+ScamShield is a Discord bot that automatically detects and acts on scam messages across five detection engines:
 
-- **Celebrity Casino Scams** — Fake casino promos using celebrity endorsements
-- **Support / Masked URL Scams** — Obfuscated links impersonating Discord support
-- **Fake Introduction / Business Pitches** — Scammers posing as new members
-- **Get-Rich-Quick Scams** — Fake investment and money-making promises
-- **Manual Scan** — On-demand text and image analysis via `/check`
+- **Celebrity Casino Scams** - Fake casino promos using celebrity endorsements
+- **Support / Masked URL Scams** - Obfuscated links impersonating Discord support
+- **Fake Introduction / Business Pitches** - Scammers posing as new members
+- **Get-Rich-Quick Scams** - Fake investment and money-making promises
+- **Manual Scan** - On-demand text and image analysis via `/check`
 
 Each detection engine runs in real-time on every message, with configurable actions (delete, warn, timeout, kick, ban), role-based alerts, and cross-server propagation.
 

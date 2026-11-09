@@ -43,7 +43,9 @@
       },
       {
         "group": "Commands",
-        "pages": ["commands/index", "commands/slash-commands", "commands/prefix-commands"]
+        "pages": [
+          "commands/index",
+          "commands/slash-commands""]
       },
       {
         "group": "Advanced",

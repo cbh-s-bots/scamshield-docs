@@ -1,7 +1,7 @@
 ---
 title: "Support Tab"
 description: "Configure support scam, intro scan, and quick scam detection settings."
-icon: "messages-question"
+icon: "eye-off"
 ---
 
 # Support Tab
@@ -12,7 +12,7 @@ The Support tab controls detection settings for three engines:
 - **Fake Introduction / Business Pitch Scams**
 - **Get-Rich-Quick Scams**
 
-These three detection types share the same configuration because they all handle text-based scam detection. Each has separate logging in the database with distinct `detection_type` values (`support`, `intro`, `quick_scam`).
+These three detection types share the same configuration because they all handle text-based scam detection. 
 
 ## Settings
 
@@ -32,8 +32,8 @@ Select roles that are mentioned when an alert is posted.
 
 Configure what happens when one of these scams is detected. Actions run in order:
 
-1. **Delete** — Removes the scam message
-2. **Warn** — Records a warning in the database
-3. **Timeout** — Mutes the user (set duration in minutes)
-4. **Kick** — Removes the user from the server
-5. **Ban** — Permanently bans the user
+1. **Delete** - Removes the scam message
+2. **Warn** - Records a warning in the database
+3. **Timeout** - Mutes the user (set duration in minutes)
+4. **Kick** - Removes the user from the server
+5. **Ban** - Permanently bans the user

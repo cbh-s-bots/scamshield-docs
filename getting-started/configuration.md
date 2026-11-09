@@ -23,7 +23,7 @@ See the [Web Dashboard](/dashboard/index) section for detailed guides on each ta
 
 ### Slash Commands
 
-`/config` — Sends a link to the web dashboard.
+`/config` - Sends a link to the web dashboard.
 
 ## Configuration Overview
 
@@ -45,6 +45,6 @@ Action timing: **Delete should be first** in the chain to remove the message bef
 
 ### Alert Settings
 
-- **Toggle** — Enable or disable alert embeds
-- **Channel** — Choose which channel receives alerts
-- **Ping Roles** — Roles to mention when an alert is sent
+- **Toggle** - Enable or disable alert embeds
+- **Channel** - Choose which channel receives alerts
+- **Ping Roles** - Roles to mention when an alert is sent
